@@ -35,6 +35,7 @@ namespace Dice
             this.DiceNumber2 = new System.Windows.Forms.Label();
             this.DiceSum = new System.Windows.Forms.Label();
             this.DiceEqual = new System.Windows.Forms.Label();
+            this.DiceStats = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
@@ -98,11 +99,22 @@ namespace Dice
             this.DiceEqual.Text = "Sum";
             this.DiceEqual.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // DiceStats
+            // 
+            this.DiceStats.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DiceStats.Location = new System.Drawing.Point(-4, 286);
+            this.DiceStats.Name = "DiceStats";
+            this.DiceStats.Size = new System.Drawing.Size(524, 29);
+            this.DiceStats.TabIndex = 6;
+            this.DiceStats.Text = "Status";
+            this.DiceStats.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(517, 403);
+            this.Controls.Add(this.DiceStats);
             this.Controls.Add(this.DiceEqual);
             this.Controls.Add(this.DiceSum);
             this.Controls.Add(this.DiceNumber2);
@@ -125,6 +137,7 @@ namespace Dice
         private System.Windows.Forms.Label DiceNumber2;
         private System.Windows.Forms.Label DiceSum;
         private System.Windows.Forms.Label DiceEqual;
+        private System.Windows.Forms.Label DiceStats;
     }
 }
 

@@ -12,6 +12,9 @@ namespace Dice
 {
     public partial class Form1 : Form
     {
+        private int DoubleDice = 0;
+        private int TrippleDice = 0;
+
         public Form1()
         {
             InitializeComponent();
@@ -38,20 +41,27 @@ namespace Dice
             if(dice[0]==dice[1] && dice[0] == dice[2])
             {
                 DiceEqual.Text = "You've got a three of a kind!";
+                TrippleDice++;
             }
             else if (dice[0]==dice[1] || dice[0] == dice[2]|| dice[1] == dice[2])
             {
                 DiceEqual.Text = "You've got a pair!";
+                DoubleDice++;
             }
+
+            DiceStats.Text = DoubleDice.ToString() + " pair and " + TrippleDice.ToString() + " three of a kind";
+                
         }
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            //Nollställ
             DiceNumber1.Text = "";
             DiceNumber2.Text = "";
             DiceNumber3.Text = "";
             DiceSum.Text = "";
             DiceEqual.Text = "";
+            DiceStats.Text = "";
 
         }
     }
