@@ -57,7 +57,7 @@ namespace Dice
             this.DiceNumber1.Name = "DiceNumber1";
             this.DiceNumber1.Size = new System.Drawing.Size(26, 29);
             this.DiceNumber1.TabIndex = 1;
-            this.DiceNumber1.Text = "1";
+            this.DiceNumber1.Text = "";
             // 
             // DiceNumber3
             // 
@@ -67,7 +67,7 @@ namespace Dice
             this.DiceNumber3.Name = "DiceNumber3";
             this.DiceNumber3.Size = new System.Drawing.Size(26, 29);
             this.DiceNumber3.TabIndex = 2;
-            this.DiceNumber3.Text = "1";
+            this.DiceNumber3.Text = "";
             // 
             // DiceNumber2
             // 
@@ -77,7 +77,7 @@ namespace Dice
             this.DiceNumber2.Name = "DiceNumber2";
             this.DiceNumber2.Size = new System.Drawing.Size(26, 29);
             this.DiceNumber2.TabIndex = 3;
-            this.DiceNumber2.Text = "1";
+            this.DiceNumber2.Text = "";
             // 
             // DiceSum
             // 
