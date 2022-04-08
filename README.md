@@ -22,9 +22,9 @@ git clone https://github.com/Haruberi/Dices.git
 
 Download Visual Studio
 
-[![csharp](https://img.shields.io/badge/--239120?logo=csharp&logoColor=000)](https://docs.microsoft.com/en-us/dotnet/csharp/)
-[![vs](https://img.shields.io/badge/--5C2D91?logo=visualstudio&logoColor=000)](https://visualstudio.microsoft.com/)
-[![windows](https://img.shields.io/badge/--0078D6?logo=windows&logoColor=000)](https://www.microsoft.com/sv-se/windows)
+[![csharp](https://img.shields.io/badge/-C%20Sharp-239120?logo=csharp&logoColor=000)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![vs](https://img.shields.io/badge/-Visual%20Studio-5C2D91?logo=visualstudio&logoColor=000)](https://visualstudio.microsoft.com/)
+[![windows](https://img.shields.io/badge/-Windows-0078D6?logo=windows&logoColor=000)](https://www.microsoft.com/sv-se/windows)
 
 ## Maintainers
 
